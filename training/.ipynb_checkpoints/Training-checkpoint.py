@@ -2,17 +2,9 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "Using TensorFlow backend.\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "# set the matplotlib backend so figures can be saved in the background\n",
     "import matplotlib\n",
@@ -45,54 +37,6 @@
    "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 2,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "usage: ipykernel_launcher.py [-h] -d DATASET -m MODEL -l LABEL_BIN [-e EPOCHS]\n",
-      "                             [-p PLOT]\n",
-      "ipykernel_launcher.py: error: the following arguments are required: -d/--dataset, -m/--model, -l/--label-bin\n"
-     ]
-    },
-    {
-     "ename": "SystemExit",
-     "evalue": "2",
-     "output_type": "error",
-     "traceback": [
-      "An exception has occurred, use %tb to see the full traceback.\n",
-      "\u001b[1;31mSystemExit\u001b[0m\u001b[1;31m:\u001b[0m 2\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "D:\\Software\\lib\\site-packages\\IPython\\core\\interactiveshell.py:3275: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.\n",
-      "  warn(\"To exit: use 'exit', 'quit', or Ctrl-D.\", stacklevel=1)\n"
-     ]
-    }
-   ],
    "source": [
     "# construct the argument parser and parse the arguments\n",
     "ap = argparse.ArgumentParser()\n",
