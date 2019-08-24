@@ -1,2 +1,2 @@
 # Udyat
-Waiting..
+Convotutional Neural Network to make action recognition
